@@ -1,6 +1,6 @@
 import os
 
-from server import app as application, run
+from app import app as application, run
 
 if __name__ == '__main__':
 
