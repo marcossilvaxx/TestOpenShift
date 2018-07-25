@@ -7,9 +7,9 @@ app = Flask(__name__)
 def hello():
     return "Hello World!"
     
-@app.route("/rennan")
+@app.route("/teste")
 def rennan():
-    return "Rennan babaca"
+    return "Testing deploy"
 
 def run(host='0.0.0.0', debug=False):
     port = int(os.environ.get("PORT", 5000))
